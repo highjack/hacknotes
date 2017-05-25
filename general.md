@@ -40,4 +40,4 @@ for this case to work, the stack protector (-fno-stack-protector) should be off 
 with aslr off:
 1) open binary print the address of functions you want to use while the app is running e.g. "p system"
 2) use find in peda to locate the address of any strings you need e.g. "find sh"
-3) structure payload as follows, like a fake stack frame: [libc address] [EBP for returning] [args to libc call]
+3) structure payload as follows, like a fake stack frame: [libc address e.g. address of system()] [EBP for returning e.g address of exit()] [args to libc call e.g. address of "sh"]
