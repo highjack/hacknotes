@@ -37,7 +37,16 @@ apktool d file.apk
 
 ## reading apk java code
 use jadx it's like jad but you don't need to use dex2jar first on it to see the code :)
+another tool is JEB there is a free trial available it also has an arm disassmbler for any .so files that are stored in /data/data/[packagename]/lib
 
+## making release apk debuggable
+```
+apktool d file.apk
+```
 
+edit AndroidManifest.xml as a property to the <application> node add 
+```
+ android:debuggable="true"
+ ```
 
 
