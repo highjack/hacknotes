@@ -49,12 +49,14 @@ edit AndroidManifest.xml as a property to the <application> node add
 ```
  android:debuggable="true"
  ```
- now resign the app and install
+ now rebuild, resign the app and install
  ```
+ apktool b -d application_path output.apk
  git clone https://github.com/appium/sign
 java -jar sign/dist/signapk.jar sign/testkey.x509.pem sign/testkey.pk8 output.apk signed.apk
 adb install signed.apk
-```
+``` 
+now we should be able to debug the apk using android studio.
 
 ## information sources
 * https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
