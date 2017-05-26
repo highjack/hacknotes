@@ -1,4 +1,5 @@
 # Android Security Testing Cheatsheet
+Notes compiled of Android Security testing training, please see source at the bottom for more information.
 
 ## viewing logs
 ```
@@ -49,4 +50,6 @@ edit AndroidManifest.xml as a property to the <application> node add
  android:debuggable="true"
  ```
 
+## information sources
+https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
 
