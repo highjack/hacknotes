@@ -51,5 +51,5 @@ edit AndroidManifest.xml as a property to the <application> node add
  ```
 
 ## information sources
-https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
+* https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
 
