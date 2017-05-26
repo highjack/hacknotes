@@ -29,3 +29,10 @@
  sudo bettercap -T [ip-of-mobile-device] --proxy --proxy-https --no-sslstrip
 ```
 
+# view permissions of the app
+```
+apktool d file.apk
+```
+
+
+
