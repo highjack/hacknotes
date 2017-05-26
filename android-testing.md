@@ -49,10 +49,11 @@ edit AndroidManifest.xml as a property to the <application> node add
 ```
  android:debuggable="true"
  ```
- now resign the app
+ now resign the app and install
  ```
  git clone https://github.com/appium/sign
 java -jar sign/dist/signapk.jar sign/testkey.x509.pem sign/testkey.pk8 output.apk signed.apk
+adb install signed.apk
 ```
 
 ## information sources
