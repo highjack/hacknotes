@@ -30,9 +30,14 @@
 ```
 
 ## view permissions of the app
+it will create a file called AndroidManifest.xml
 ```
 apktool d file.apk
 ```
+
+## reading apk java code
+use jadx it's like jad but you don't need to use dex2jar first on it to see the code :)
+
 
 
 
