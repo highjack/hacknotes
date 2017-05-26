@@ -58,6 +58,10 @@ adb install signed.apk
 ``` 
 now we should be able to debug the apk using android studio.
 
+## instrumentation frameworks
+https://www.frida.re/
+http://repo.xposed.info/
+
 ## information sources
 * https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/
 
