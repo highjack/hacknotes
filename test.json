@@ -1,8 +1,10 @@
-    {
+[
+{
         "name": "Airbnb",
         "program_url": "https://hackerone.com/airbnb",
         "URL": "https://chaos-data.s3.fr-par.scw.cloud/Airbnb.zip",
         "count": 624,
         "change": 0,
         "last_updated": "2020-05-13T00:49:03.002660864Z"
-    },
+    }
+]
