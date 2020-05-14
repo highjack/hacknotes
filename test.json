@@ -6,13 +6,5 @@
         "count": 624,
         "change": 0,
         "last_updated": "2020-05-13T00:49:03.002660864Z"
-    },
-    {
-        "name": "Cloudflare",
-        "program_url": "https://hackerone.com/cloudflare",
-        "URL": "https://chaos-data.s3.fr-par.scw.cloud/Cloudflare.zip",
-        "count": 1332471,
-        "change": 1332471,
-        "last_updated": "2020-05-13T00:49:17.189565529Z"
     }
 ]
