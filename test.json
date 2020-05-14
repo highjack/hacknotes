@@ -8,30 +8,6 @@
         "last_updated": "2020-05-13T00:49:03.002660864Z"
     },
     {
-        "name": "Twitter",
-        "program_url": "https://hackerone.com/twitter",
-        "URL": "https://chaos-data.s3.fr-par.scw.cloud/Twitter.zip",
-        "count": 836,
-        "change": 0,
-        "last_updated": "2020-05-13T00:49:05.914985545Z"
-    },
-    {
-        "name": "PayPal",
-        "program_url": "https://hackerone.com/paypal",
-        "URL": "https://chaos-data.s3.fr-par.scw.cloud/PayPal.zip",
-        "count": 5049,
-        "change": 0,
-        "last_updated": "2020-05-13T00:49:09.514600752Z"
-    },
-    {
-        "name": "Facebook",
-        "program_url": "https://www.facebook.com/whitehat",
-        "URL": "https://chaos-data.s3.fr-par.scw.cloud/Facebook.zip",
-        "count": 21327,
-        "change": 2,
-        "last_updated": "2020-05-13T00:49:12.722854916Z"
-    },
-    {
         "name": "Cloudflare",
         "program_url": "https://hackerone.com/cloudflare",
         "URL": "https://chaos-data.s3.fr-par.scw.cloud/Cloudflare.zip",
